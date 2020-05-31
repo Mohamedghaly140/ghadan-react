@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter } from 'react-router-dom';
 import Navigation from './Containers/Navigation/Navigation';
 import Slider from './Components/Slider/Slider';
+import Features from './Components/Features/Features';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
           <Navigation />
         </BrowserRouter>
         <Slider />
+        <Features />
       </div>
     );
   }
