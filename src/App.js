@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter } from 'react-router-dom';
 import Navigation from './Containers/Navigation/Navigation';
+import Slider from './Components/Slider/Slider';
 
 class App extends Component {
   render() {
@@ -10,7 +11,7 @@ class App extends Component {
         <BrowserRouter>
           <Navigation />
         </BrowserRouter>
-        <h2>Ghadan Website</h2>
+        <Slider />
       </div>
     );
   }

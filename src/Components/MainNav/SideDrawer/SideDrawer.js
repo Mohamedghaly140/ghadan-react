@@ -19,7 +19,7 @@ const SideDrawer = (props) => {
         <div className={classes.Logo}>
           <Logo />
         </div>
-        <nav>
+        <nav className={classes.MobileOnly}>
           <NavItems />
         </nav>
       </div>

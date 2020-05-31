@@ -27,13 +27,19 @@
 }
 
 @media (max-width: 576px) {
-  .DesktopOnly {
+  .MobileOnly {
     display: block;
   }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
   .DesktopOnly {
-    display: block;
+    .MobileOnly: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .MobileOnly {
+    display: none;
   }
 }
