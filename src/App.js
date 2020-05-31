@@ -4,6 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import Navigation from './Containers/Navigation/Navigation';
 import Slider from './Components/Slider/Slider';
 import Features from './Components/Features/Features';
+import Partner from './Components/Partner/Partner';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         </BrowserRouter>
         <Slider />
         <Features />
+        <Partner />
       </div>
     );
   }

@@ -1,0 +1,17 @@
+.Aboutus {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px auto;
+  padding: 20px 10px;
+  background: url('../../assets/images/bk\ yellow.jpg') center center;
+  background-size: cover;
+}
+
+.Aboutus h2 {color: #FFF;}
+
+.Aboutus p {color: rgba(255, 255, 255, 0.7);}
+
+.Content {
+  text-align: left;
+  padding: 20px 0;
+  margin: 5px auto;
+}
