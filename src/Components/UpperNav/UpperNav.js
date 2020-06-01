@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import { library } from '@fortawesome/fontawesome-svg-core';
+import Radium from 'radium';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faFacebookF,
@@ -18,6 +18,14 @@ import {
 } from './styleUpperNav';
 
 const UpperNav = props => {
+  const IconsStyle = {
+    color: '#ce8d16',
+    ':hover': {
+      transform: 'rotate(360deg)',
+      transition: '.5s ease'
+    }
+  }
+
   return (
     <nav>
       <Container>
@@ -33,19 +41,19 @@ const UpperNav = props => {
               <IconsSpanA
                 href='https://www.facebook.com/ghadan.co/?ref=br_rs'
                 target='_blank'>
-                <FontAwesomeIcon icon={faFacebookF} />
+                <FontAwesomeIcon icon={faFacebookF} style={IconsStyle} />
               </IconsSpanA>
             </IconsSpan>
             <IconsSpan>
               <IconsSpanA href='https://twitter.com/Salt_from_Egypt' target='_blank'>
-              <FontAwesomeIcon icon={faTwitter} />
+              <FontAwesomeIcon icon={faTwitter} style={IconsStyle} />
               </IconsSpanA>
             </IconsSpan>
             <IconsSpan>
               <IconsSpanA
                 href='https://www.linkedin.com/company/egypt-rock-salt-ghadan/'
                 target='_blank'>
-                <FontAwesomeIcon icon={faLinkedinIn} />
+                <FontAwesomeIcon icon={faLinkedinIn} style={IconsStyle} />
               </IconsSpanA>
             </IconsSpan>
           </Icons>
@@ -55,4 +63,4 @@ const UpperNav = props => {
   );
 };
 
-export default UpperNav;
+export default Radium(UpperNav);

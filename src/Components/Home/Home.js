@@ -12,6 +12,7 @@ const Home = () => {
       <Features />
       <Partner />
       <Story />
+      <hr />
       <Blog />
     </Fragment>
   );

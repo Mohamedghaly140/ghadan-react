@@ -1,0 +1,23 @@
+.Services {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 15px auto;
+  padding: 30px 0;
+}
+
+.Services .header h1 {
+  color: #ce8d16;
+  text-transform: capitalize;
+}
+
+.Services div.header {
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.Services .row h3 #ser-icon {color: #ce8d16;}
+
+.Services .row h3 + p {color: #444;}
+
+.Services .container .row > div:last-child {
+  border-right: none;
+}
