@@ -1,8 +1,8 @@
 .Aboutus {
   font-family: Arial, Helvetica, sans-serif;
   margin: 20px auto;
-  padding: 20px 10px;
-  background: url('../../assets/images/bk\ yellow.jpg') center center;
+  padding: 30px 0 10px 0;
+  background: url('../../../assets/images/bk\ yellow.jpg') center center;
   background-size: cover;
 }
 
@@ -12,6 +12,6 @@
 
 .Content {
   text-align: left;
-  padding: 20px 0;
+  padding: 5px 0 10px 0;
   margin: 5px auto;
 }

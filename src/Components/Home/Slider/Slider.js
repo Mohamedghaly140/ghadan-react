@@ -4,17 +4,17 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import './Slider.css';
 
-import Logo from '../Logo/Logo';
-import slid1 from '../../assets/images/slider/Ghadan Company Your Salt Partner.jpg';
-import slid2 from '../../assets/images/slider/Genuine Rock Salt Producer.jpg';
-import slid3 from '../../assets/images/slider/Third Party Quality Control.jpg';
-import slid4 from '../../assets/images/slider/Millions of Tons Capacity.jpg';
-import slid5 from '../../assets/images/slider/Agile Efficient Stevedore Performance.jpg';
-import slid6 from '../../assets/images/slider/Pure Rock Salt.jpg';
-import slid7 from '../../assets/images/slider/Our Market.jpg';
-import slid8 from '../../assets/images/slider/sea_salt.jpg';
-import slid9 from '../../assets/images/slider/edible_salt.jpg';
-import slid10 from '../../assets/images/slider/salt_tablets.jpg';
+import Logo from '../../Logo/Logo';
+import slid1 from '../../../assets/images/slider/Ghadan Company Your Salt Partner.jpg';
+import slid2 from '../../../assets/images/slider/Genuine Rock Salt Producer.jpg';
+import slid3 from '../../../assets/images/slider/Third Party Quality Control.jpg';
+import slid4 from '../../../assets/images/slider/Millions of Tons Capacity.jpg';
+import slid5 from '../../../assets/images/slider/Agile Efficient Stevedore Performance.jpg';
+import slid6 from '../../../assets/images/slider/Pure Rock Salt.jpg';
+import slid7 from '../../../assets/images/slider/Our Market.jpg';
+import slid8 from '../../../assets/images/slider/sea_salt.jpg';
+import slid9 from '../../../assets/images/slider/edible_salt.jpg';
+import slid10 from '../../../assets/images/slider/salt_tablets.jpg';
 
 const Slider = props => {
   return (

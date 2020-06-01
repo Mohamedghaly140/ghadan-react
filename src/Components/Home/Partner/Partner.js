@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './Partner.module.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import LogoPartner from '../../assets/images/Member_Logo.jpg';
+import LogoPartner from '../../../assets/images/Member_Logo.jpg';
 
 const Partner = props => {
   return (
