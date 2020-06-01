@@ -37,10 +37,4 @@ export const IconsSpan = styled.span`
 export const IconsSpanA = styled.a`
   color: #ce8d16;
   text-decoration: none;
-
-  &:hover {
-    color: #ce8d16;
-    transform: rotate(360deg);
-    transition: .5s ease-out;
-  }
 `;

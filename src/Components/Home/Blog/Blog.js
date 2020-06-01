@@ -8,8 +8,8 @@ const Blog = () => {
   return (
     <div className={classes.Services}>
       <Container>
-        <div class='header text-center'>
-          <h1>Rock Salt, the Purest in the Nature</h1>
+        <div className='header text-center'>
+          <h1 style={{color: '#ce8d16', textTransform: 'capitalize'}}>Rock Salt, the Purest in the Nature</h1>
           <p>
             Welcome our new product Rock Salt from Siwa Oasis, one of the
             highest qualities in the world. For more info and orders contact us.

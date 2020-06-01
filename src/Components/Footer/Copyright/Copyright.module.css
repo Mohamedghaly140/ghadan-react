@@ -1,0 +1,18 @@
+.Copyright {
+  text-align: center;
+}
+
+.Copyright p {
+  margin: 10px auto;
+  color: #888;
+}
+
+.Copyright p a {text-decoration: none;}
+
+.Copyright p a span {
+  color: #ce8d16;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  font-weight: 500;
+  cursor: pointer;
+}

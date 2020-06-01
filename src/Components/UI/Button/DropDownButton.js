@@ -3,13 +3,13 @@ import { Dropdown } from 'react-bootstrap';
 import styled from 'styled-components';
 import ListItem from './ListItems';
 
-const Button = props => {
+const DropDownButton = props => {
   return (
     <Dropdown>
       <Dropdown.Toggle
         variant=''
         id='dropdown-basic'
-        style={{ color: '#FFF', outline: 'none' }}
+        style={{ color: '#FFF', outline: 'none' , padding: props.padding}}
       >
         {props.title}
       </Dropdown.Toggle>
@@ -27,7 +27,7 @@ const Button = props => {
   );
 };
 
-export default Button;
+export default DropDownButton;
 
 const ListDrop = styled.ul`
   list-style: none;

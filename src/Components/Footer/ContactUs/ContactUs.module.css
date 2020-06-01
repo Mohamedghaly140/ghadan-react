@@ -1,0 +1,32 @@
+.FooterHeading {
+  padding-bottom: 10px;
+  color: #ce8d16;
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+}
+
+.ListUnstyled {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ListUnstyled li {
+  padding: 10px 0;
+  color: #999;
+}
+
+.ListUnstyled li:first-child {padding: 0;}
+
+.Icons  span {
+  margin-left: 15px;
+}
+
+.Icons  span a {
+  color: #999;
+}
+
+.Icons  span a svg:hover {
+  color: #FFF;
+  transform: scale(1.5);
+  transition: .5s ease;
+}
