@@ -25,14 +25,14 @@ const Slider = props => {
         margin={0}
         nav={true}
         dots={true}
-        // loop={true}
-        // autoplay={true}
-        // autoplayHoverPause={true}
+        loop={true}
+        autoplay={true}
+        autoplayHoverPause={true}
       >
         <div className="item">
           <div className="overlay"></div>
           <img src={slid1} className="d-block w-100" alt="Ghadan Company Your Salt Partner" title="Ghadan Company Your Salt Partner" />
-          <div className="caption" style={{top: '30%'}}>
+          <div className="caption" style={{top: '25%'}}>
             <div style={{height: '50%'}}>
               <Logo />
             </div>
@@ -88,7 +88,7 @@ const Slider = props => {
           <div className="overlay"></div>
           <img src={slid8} className="d-block w-100" alt="Sea Salt" title="Sea Salt" />
           <div className="caption">
-            <h2>Sea Sal</h2>
+            <h2>Sea Salt</h2>
           </div>
         </div>
         <div className="item">
