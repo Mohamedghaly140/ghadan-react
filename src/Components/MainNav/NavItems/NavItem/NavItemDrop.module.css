@@ -1,0 +1,44 @@
+.NavItemDrop {
+  color: #FFF;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .NavItemDrop {
+    width: 100%;
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: block;
+  }
+  
+  .NavItemDrop div button {
+    color: #8f5c2c !important;
+    font-weight: bold !important;
+    outline: none !important;
+    border: none !important;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .NavItemDrop {
+    width: 100%;
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: block;
+  }
+  
+  .NavItemDrop div button {
+    color: #8f5c2c !important;
+    font-weight: bold !important;
+    outline: none !important;
+    border: none !important;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+  }
+}

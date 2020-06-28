@@ -2,7 +2,7 @@ import React from 'react';
 import Radium from 'radium';
 import { Dropdown } from 'react-bootstrap';
 import styled from 'styled-components';
-import ListItem from './ListItems';
+import ListItem from '../ListItems';
 
 const ListDrop = styled.ul`
   list-style: none;
@@ -40,11 +40,11 @@ const DropDownButton = props => {
 
       <Dropdown.Menu>
         <ListDrop>
-          <ListItem dir='/Products' link='/Rock-salt'>Rock salt</ListItem>
-          <ListItem dir='/Products' link='/Tablet-salt'>Tablet salt</ListItem>
-          <ListItem dir='/Products' link='/Edible-salt'>Edible salt</ListItem>
-          <ListItem dir='/Products' link='/Industrial-salt'>Industrial salt</ListItem>
-          <ListItem dir='/Products' link='/Solar-salt'>Solar salt</ListItem>
+          <ListItem dir='/Fertilizers' link='/SSP'>SSP</ListItem>
+          <ListItem dir='/Fertilizers' link='/TSP'>TSP</ListItem>
+          <ListItem dir='/Fertilizers' link='/MAP'>MAP</ListItem>
+          <ListItem dir='/Fertilizers' link='/DAP'>DAP</ListItem>
+          <ListItem dir='/Fertilizers' link='/UERA'>UERA</ListItem>
         </ListDrop>
       </Dropdown.Menu>
     </Dropdown>
