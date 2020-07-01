@@ -1,5 +1,20 @@
 import React from 'react';
 
+import MAPimg from '../../../assets/images/Fertilizers/Phosphate/MAP/MAP.jpg';
+
+import SugerBeet from '../../../assets/images/Fertilizers/crops/DAP/sugar-beet.jpg';
+import PerennialGrasses from '../../../assets/images/Fertilizers/crops/DAP/Perennial grasses.jpg';
+import GrainCorn from '../../../assets/images/Fertilizers/crops/DAP/Grain corn.jpg';
+import SilageCorn from '../../../assets/images/Fertilizers/crops/DAP/Silage corn.jpg';
+import Oats from '../../../assets/images/Fertilizers/crops/DAP/Oats.jpg';
+import Rye from '../../../assets/images/Fertilizers/crops/DAP/Rye.jpg';
+import Barley from '../../../assets/images/Fertilizers/crops/DAP/Barley.jpg';
+import Potatoes from '../../../assets/images/Fertilizers/crops/DAP/Potatoes.jpeg';
+import Sunflower from '../../../assets/images/Fertilizers/crops/DAP/Sunflower.jpg';
+import Soybeans from '../../../assets/images/Fertilizers/crops/DAP/Soybeans.jpg';
+import Rapeseed from '../../../assets/images/Fertilizers/crops/DAP/Rapeseed.jpg';
+import Wheat from '../../../assets/images/Fertilizers/crops/DAP/Wheat.jpeg';
+
 const MAP = () => {
   return (
     <div className='map'>
@@ -19,7 +34,7 @@ const MAP = () => {
               </div>
               <div className='col-md-3'>
                 <img
-                  src='Phosphate/MAP/MAP.jpg'
+                  src={MAPimg}
                   alt='MAP'
                   className='img-fluid img-thumbnail'
                 />
@@ -30,7 +45,7 @@ const MAP = () => {
               <h2>Application (H2)</h2>
               <li>Period: autumn, spring</li>
               <li>Method: broadcasting, during sowing</li>
-              <li>Soils: alkaline soils (рН (Н2О) > 7.5)</li>
+              <li>Soils: alkaline soils (рН (Н2О) &gt; 7.5)</li>
             </ul>
             <hr />
             <ul>
@@ -38,7 +53,7 @@ const MAP = () => {
               <li>High cropping</li>
               <li>
                 Ensures good root system growthBrewing barley Crops All crops
-                Period Broadcasting MethodAlkaline soils (рН (Н2О) > 7,5) Soils
+                Period Broadcasting MethodAlkaline soils (рН (Н2О) &gt; 7,5) Soils
                 1–4 mm ≥95% pH 5.2 – 6.0strength Dose 6100 kg/ha Autumn Spring
                 During sowing
               </li>
