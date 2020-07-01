@@ -22,7 +22,7 @@ class App extends Component {
           <Route exact path='/' component={Home} />
           <Route path='/About' component={About} />
           <Route path='/Contact' component={Contact} />
-          <Route component={NoMatch} />
+          {/* <Route component={NoMatch} /> */}
           <Footer />
         </BrowserRouter>
       </StyleRoot>

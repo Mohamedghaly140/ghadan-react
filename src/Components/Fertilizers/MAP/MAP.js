@@ -15,6 +15,8 @@ import Soybeans from '../../../assets/images/Fertilizers/crops/DAP/Soybeans.jpg'
 import Rapeseed from '../../../assets/images/Fertilizers/crops/DAP/Rapeseed.jpg';
 import Wheat from '../../../assets/images/Fertilizers/crops/DAP/Wheat.jpeg';
 
+import MAPPDF from '../../../assets/images/Fertilizers/Phosphate/MAP/Ghadan-103-SDS_Monoammonium-Phosphate-M.A.P.-converted.pdf';
+
 const MAP = () => {
   return (
     <div className='map'>
@@ -201,7 +203,7 @@ const MAP = () => {
             </div>
             <h3>Safety Data Sheet</h3>
             <div className='attach'>
-              <a href='Phosphate/MAP/Ghadan-103-SDS_Monoammonium-Phosphate-M.A.P.-converted.pdf'>
+              <a href={MAPPDF} target='_blank'>
                 <h3>Safety Data Sheet Mono-ammonium Phosphate </h3>
               </a>
             </div>

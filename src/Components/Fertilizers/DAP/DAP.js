@@ -15,6 +15,9 @@ import Soybeans from '../../../assets/images/Fertilizers/crops/DAP/Soybeans.jpg'
 import Rapeseed from '../../../assets/images/Fertilizers/crops/DAP/Rapeseed.jpg';
 import Wheat from '../../../assets/images/Fertilizers/crops/DAP/Wheat.jpeg';
 
+import AspectsPDF from '../../../assets/images/Fertilizers/Phosphate/DAP/Aspects DAP standard-converted.pdf';
+import GDAP from '../../../assets/images/Fertilizers/Phosphate/DAP/G-DAP  MSDS-converted Ghadan.pdf';
+
 const DAP = () => {
   return (
     <div className='dap'>
@@ -198,12 +201,12 @@ const DAP = () => {
             </div>
             <h3>Safety Data Sheet</h3>
             <div className='attach'>
-              <a href='Phosphate/DAP/Aspects DAP standard-converted.pdf'>
+              <a href={AspectsPDF}>
                 <h3>Stander Aspects of Granular Di-ammonium Phosphate G-DAP</h3>
               </a>
             </div>
             <div className='attach'>
-              <a href='Phosphate/DAP/G-DAP  MSDS-converted Ghadan.pdf'>
+              <a href={GDAP}>
                 <h3>
                   MATERIAL SAFTEY DATA SHEET (MSDS) Granular Di-ammonium
                   Phosphate (G-DAP)
