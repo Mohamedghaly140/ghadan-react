@@ -37,9 +37,12 @@ figure .image {
   overflow: hidden;
   margin-bottom: 0.5rem;
 }
+figure .image img {
+  margin: 0;
+  transition: 0.3s ease-in-out;
+}
 figure .image img:hover {
   transform: scale(1.2);
-  transition: 0.3s ease-in-out;
 }
 .crops {
   display: flex;

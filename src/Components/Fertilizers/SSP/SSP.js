@@ -63,7 +63,7 @@ const SSP = () => {
             <ul>
               <h2>Advantages</h2>
               <li>
-                SSP is one of the cheapest forms of phosphate & Supplies sulfate
+                SSP is one of the cheapest forms of phosphate &amp; Supplies sulfate
                 sulfur and calcium
               </li>
               <li>
@@ -72,7 +72,7 @@ const SSP = () => {
                 forms.
               </li>
               <li>
-                It can be blended with other fertilizer products (except Urea &
+                It can be blended with other fertilizer products (except Urea &amp;
                 DAP).
               </li>
               <li>
