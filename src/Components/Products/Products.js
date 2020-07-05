@@ -7,6 +7,7 @@ import IndustrialSalt from './IndustrialSalt/IndustrialSalt';
 import TabletSalt from './TabletSalt/TabletSalt';
 import SolarSalt from './SolarSalt/SolarSalt';
 
+import RockSaltHalite from './RockSaltHalite/RockSaltHalite';
 import SGSAnalysis from './SGSAnalysis/SGSAnalysis';
 import RockSaltMined from './RockSaltMined/RockSaltMined';
 
@@ -20,6 +21,7 @@ const Products = () => {
       <Route path="/Siwa-Rocks" component={RockSalt} />
       <Route path="/SGS-Analysis" component={SGSAnalysis} />
       <Route path="/Rock-Salt-Mined" component={RockSaltMined} />
+      <Route path="/Rock-Salt-Halite" component={RockSaltHalite} />
     </Fragment>
   );
 }

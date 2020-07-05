@@ -3,6 +3,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 import RockSaltImg from '../../../assets/images/rock/rock-salt.jpeg';
 import classes from './Story.module.css';
 
+import StoryLinks from './StoryLinks';
+
 const Story = () => {
   return (
     <div className={classes.RockSalt}>
@@ -35,24 +37,7 @@ const Story = () => {
             </p>
             <p>In brief, Ghadan is where to buy rock salt.</p>
             <h3>Learn More</h3>
-            <ul style={{width: '300px'}}>
-              <li>
-                <a href='Rock-Salt-Halite.html'>Rock Salt (Halite)</a>
-              </li>
-              <li>
-                <a href='How-Is-the-Rock-Salt-Mined.html'>
-                  How Is the Rock Salt Mined?
-                </a>
-              </li>
-              <li>
-                <a href='Rock-salt-analysis-SGS.html'>
-                  ROCK SALT Analysis By SGS
-                </a>
-              </li>
-              <li>
-                <a href='rock salt/index.html'>SIWA ROCK SALT FROM EGYPT</a>
-              </li>
-            </ul>
+            <StoryLinks />
           </Col>
           <Col sm={12} md={3} lg={3}>
             <img className="img-thumbnail" src={RockSaltImg} alt="Rock Salt" />
