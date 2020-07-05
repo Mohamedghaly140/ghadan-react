@@ -1,0 +1,23 @@
+.rock-mined {
+  margin: 25px auto;
+  padding: 20px 0;
+}
+.rock-mined h2 {
+  border-bottom: 2px solid #ce8d16;
+  display: inline-block;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.rock-mined hr {
+  margin: 25px auto 35px auto;
+  border-top: 2px solid rgba(0, 0, 0, 0.3);
+}
+.rock-mined a {
+  color: #ce8d16;
+  font-weight: bold;
+}
+mark {
+  background-color: none !important;
+  color: #ce8d16;
+  font-weight: bold;
+}

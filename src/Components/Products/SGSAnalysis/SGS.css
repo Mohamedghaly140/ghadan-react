@@ -1,0 +1,18 @@
+.rock-page3 {
+  margin: 25px auto;
+  padding: 20px 0;
+}
+.rock-page3 h2 {
+  border-bottom: 2px solid #ce8d16;
+  display: inline-block;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.rock-page3 hr {
+  margin: 25px auto 35px auto;
+  border-top: 2px solid rgba(0, 0, 0, 0.3);
+}
+.rock-page3 a {
+  color: #ce8d16;
+  font-weight: bold;
+}

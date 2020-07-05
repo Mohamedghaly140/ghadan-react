@@ -14,7 +14,7 @@ const RockSalt = () => {
           <h2>SIWA ROCK SALT FROM EGYPT</h2>
             <section id='sec1'>
               <Row>
-                <Col md={9}>
+                <Col md={9} style={{margin: 'auto'}}>
                   <p>
                     What is <strong>“SIWA ROCK SALT”</strong> ? Firstly, we have
                     to stand for the facts which made{' '}
@@ -27,7 +27,7 @@ const RockSalt = () => {
                     problems.
                   </p>
                 </Col>
-                <Col md={3}>
+                <Col md={9} style={{margin: 'auto'}}>
                   <img
                     className='img-fluid img-thumbnail'
                     src={Img1}
@@ -39,15 +39,7 @@ const RockSalt = () => {
             </section>
             <section id='sec2'>
               <Row>
-                <Col md={3}>
-                  <img
-                    className='img-fluid img-thumbnail'
-                    src={Img2}
-                    alt='Rock Salt'
-                    title='Rock Salt'
-                  />
-                </Col>
-                <Col md={9}>
+                <Col md={9} style={{margin: 'auto'}}>
                   <p>
                     <strong>ROCK SALT</strong> is considered as the most
                     inexpensive and effective <strong>DEICER</strong> for snow
@@ -68,11 +60,19 @@ const RockSalt = () => {
                     more profitable than <strong>MARINE SALT</strong>.
                   </p>
                 </Col>
+                <Col md={9} style={{margin: 'auto'}}>
+                  <img
+                    className='img-fluid img-thumbnail'
+                    src={Img2}
+                    alt='Rock Salt'
+                    title='Rock Salt'
+                  />
+                </Col>
               </Row>
             </section>
             <section id='sec3'>
               <Row>
-                <Col md={9}>
+                <Col md={9} style={{margin: 'auto'}}>
                   <p>
                     So why has to use <a href='index.html'>SIWA ROCK SALT</a>,
                     Egypt has become one of the most{' '}
@@ -85,7 +85,7 @@ const RockSalt = () => {
                     cost that makes it competitive in price and quality.
                   </p>
                 </Col>
-                <Col md={3}>
+                <Col md={9} style={{margin: 'auto'}}>
                   <img
                     className='img-fluid img-thumbnail'
                     src={Img3}

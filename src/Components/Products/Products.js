@@ -7,14 +7,19 @@ import IndustrialSalt from './IndustrialSalt/IndustrialSalt';
 import TabletSalt from './TabletSalt/TabletSalt';
 import SolarSalt from './SolarSalt/SolarSalt';
 
+import SGSAnalysis from './SGSAnalysis/SGSAnalysis';
+import RockSaltMined from './RockSaltMined/RockSaltMined';
+
 const Products = () => {
   return (
     <Fragment>
-      <Route path="/Products/Rock-salt" component={RockSalt} />
       <Route path="/Products/Edible-salt" component={EdibleSalt} />
       <Route path="/Products/Industrial-salt" component={IndustrialSalt} />
       <Route path="/Products/Tablet-salt" component={TabletSalt} />
       <Route path="/Products/Solar-salt" component={SolarSalt} />
+      <Route path="/Siwa-Rocks" component={RockSalt} />
+      <Route path="/SGS-Analysis" component={SGSAnalysis} />
+      <Route path="/Rock-Salt-Mined" component={RockSaltMined} />
     </Fragment>
   );
 }
