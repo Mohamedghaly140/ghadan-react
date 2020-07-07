@@ -203,7 +203,7 @@ const MAP = () => {
             </div>
             <h3>Safety Data Sheet</h3>
             <div className='attach'>
-              <a href={MAPPDF} target='_blank'>
+              <a href={MAPPDF} target='_blank' rel="noopener noreferrer">
                 <h3>Safety Data Sheet Mono-ammonium Phosphate </h3>
               </a>
             </div>

@@ -16,10 +16,10 @@ const SGSAnalysis = () => {
                                 <h2>ROCK SALT Analysis By SGS</h2>
                                 <img className="img-fluid img-thumbnail" src={QualityControl} alt="Rock Salt" style={{marginTop: '1.5rem'}} />
                                 <ul style={{margin: '3rem auto'}}>
-                                    <li> <a href="Rock-Salt-Halite.html">NaCl</a> : &lt; 98%</li>
+                                    <li> <NavLink to="/Rock-Salt-Halite">NaCl</NavLink> : &lt; 98%</li>
                                     <li>Moisture : &gt; 1.5</li>
-                                    <li> <a href="rock salt/index.html">Applications</a> : Industrial use, Deicing, as Raw Material for Edible Salt.</li>
-                                    <li> <a href="How-Is-the-Rock-Salt-Mined.html">Standards</a> : ASTM D632 Type 1, BS 3247 … etc.</li>
+                                    <li> <NavLink to="/Siwa-Rocks">Applications</NavLink> : Industrial use, Deicing, as Raw Material for Edible Salt.</li>
+                                    <li> <NavLink to="/Rock-Salt-Mined">Standards</NavLink> : ASTM D632 Type 1, BS 3247 … etc.</li>
                                 </ul>
                                 <hr />
                                 <img className="img-fluid img-thumbnail" src={Certificate} alt="certificate" />

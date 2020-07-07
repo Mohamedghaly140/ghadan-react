@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 import SolarSaltimg from '../../../assets/images/rock_salt/Solar_Salt.jpg';
 
@@ -15,7 +16,7 @@ const SolarSalt = () => {
         <div className='row'>
           <div className='col-md-4 offset-md-1'>
             <img
-              class='card-img-top img-fluid'
+              className='card-img-top img-fluid'
               src={SolarSaltimg}
               alt='Solar Salt'
               title='Solar Salt - Egypt Origin'
@@ -23,18 +24,16 @@ const SolarSalt = () => {
           </div>
           <div className='col-md-6 offset-md-1'>
             <div className='slat-content'>
-              <h4 class='card-title'>Solar Salt - Egypt Origin</h4>
-              <p class='card-text'>
-                Solar Salt for Deicing
-                <ul>
-                  <li>Grade A: NaCl 98%</li>
-                  <li>Grade B: NaCl 96%</li>
-                  <li>Grad C: NaCl 90-94%</li>
-                </ul>
-              </p>
-              <a href='#' class='card-link'>
+              <h4 className='card-title'>Solar Salt - Egypt Origin</h4>
+              <p className='card-text'>Solar Salt for Deicing</p>
+              <ul>
+                <li>Grade A: NaCl 98%</li>
+                <li>Grade B: NaCl 96%</li>
+                <li>Grad C: NaCl 90-94%</li>
+              </ul>
+              <NavLink to='/Contact' className='card-link'>
                 Contact us for more details.
-              </a>
+              </NavLink>
             </div>
           </div>
         </div>

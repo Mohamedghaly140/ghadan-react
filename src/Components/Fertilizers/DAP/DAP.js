@@ -206,7 +206,7 @@ const DAP = () => {
               </a>
             </div>
             <div className='attach'>
-              <a href={GDAP}>
+              <a href={GDAP} target='_blank' rel='noopener noreferrer'>
                 <h3>
                   MATERIAL SAFTEY DATA SHEET (MSDS) Granular Di-ammonium
                   Phosphate (G-DAP)

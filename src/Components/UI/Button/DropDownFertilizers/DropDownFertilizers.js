@@ -22,7 +22,7 @@ const DropDownButton = props => {
     border: 'none',
     padding: props.padding,
 
-    '@media (max-width: 767px)': {
+    '@media (maxWidth: 767px)': {
       color: '#8f5c2c',
       fontWeight: '500'
     }

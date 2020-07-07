@@ -11,6 +11,8 @@ import RockSaltHalite from './RockSaltHalite/RockSaltHalite';
 import SGSAnalysis from './SGSAnalysis/SGSAnalysis';
 import RockSaltMined from './RockSaltMined/RockSaltMined';
 
+import './Products.css';
+
 const Products = () => {
   return (
     <Fragment>

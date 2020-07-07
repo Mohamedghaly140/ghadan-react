@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 import IndustrialSaltimg from '../../../assets/images/rock_salt/Industrial_Salt.jpg';
 
@@ -15,7 +16,7 @@ const IndustrialSalt = () => {
         <div className='row'>
           <div className='col-md-4 offset-md-1'>
             <img
-              class='img-fluid img-thumbnail'
+              className='img-fluid img-thumbnail'
               src={IndustrialSaltimg}
               alt='Industrial Salt'
               title='Industrial Salt – Egypt Origin'
@@ -31,9 +32,9 @@ const IndustrialSalt = () => {
                 <li>NaCl : Up to 99.8%</li>
                 <li>Moisture : 1%</li>
               </ul>
-              <a href='#' class='card-link'>
+              <NavLink to='/Contact' className='card-link'>
                 Contact us for more details.
-              </a>
+              </NavLink>
             </div>
           </div>
         </div>

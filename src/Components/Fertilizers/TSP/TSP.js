@@ -210,7 +210,7 @@ const SSP = () => {
             </div>
             <p>Safety Data Sheet</p>
             <div className='attach'>
-              <a href={SSPPDF}>
+              <a href={SSPPDF} target='_blank' rel='noopener noreferrer'>
                 <h3>SAFETY DATA SHEET</h3>
               </a>
             </div>
