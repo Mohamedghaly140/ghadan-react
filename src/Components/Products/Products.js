@@ -1,31 +1,92 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, Suspense } from 'react';
 import { Route } from 'react-router-dom';
-
-import RockSalt from './RockSalt/RockSalt';
-import EdibleSalt from './EdibleSalt/EdibleSalt';
-import IndustrialSalt from './IndustrialSalt/IndustrialSalt';
-import TabletSalt from './TabletSalt/TabletSalt';
-import SolarSalt from './SolarSalt/SolarSalt';
-
-import RockSaltHalite from './RockSaltHalite/RockSaltHalite';
-import SGSAnalysis from './SGSAnalysis/SGSAnalysis';
-import RockSaltMined from './RockSaltMined/RockSaltMined';
-
 import './Products.css';
+
+import Spinner from '../UI/Spinner/Spinner';
+
+const RockSalt = React.lazy(() => import('./RockSalt/RockSalt'));
+const EdibleSalt = React.lazy(() => import('./EdibleSalt/EdibleSalt'));
+const IndustrialSalt = React.lazy(() =>
+  import('./IndustrialSalt/IndustrialSalt')
+);
+const TabletSalt = React.lazy(() => import('./TabletSalt/TabletSalt'));
+const SolarSalt = React.lazy(() => import('./SolarSalt/SolarSalt'));
+
+const RockSaltHalite = React.lazy(() =>
+  import('./RockSaltHalite/RockSaltHalite')
+);
+const SGSAnalysis = React.lazy(() => import('./SGSAnalysis/SGSAnalysis'));
+const RockSaltMined = React.lazy(() => import('./RockSaltMined/RockSaltMined'));
 
 const Products = () => {
   return (
     <Fragment>
-      <Route path="/Products/Edible-salt" component={EdibleSalt} />
-      <Route path="/Products/Industrial-salt" component={IndustrialSalt} />
-      <Route path="/Products/Tablet-salt" component={TabletSalt} />
-      <Route path="/Products/Solar-salt" component={SolarSalt} />
-      <Route path="/Siwa-Rocks" component={RockSalt} />
-      <Route path="/SGS-Analysis" component={SGSAnalysis} />
-      <Route path="/Rock-Salt-Mined" component={RockSaltMined} />
-      <Route path="/Rock-Salt-Halite" component={RockSaltHalite} />
+      <Route
+        path='/Products/Edible-salt'
+        render={() => (
+          <Suspense fallback={<Spinner />}>
+            <EdibleSalt />
+          </Suspense>
+        )}
+      />
+      <Route
+        path='/Products/Industrial-salt'
+        render={() => (
+          <Suspense fallback={<Spinner />}>
+            <IndustrialSalt />
+          </Suspense>
+        )}
+      />
+      <Route
+        path='/Products/Tablet-salt'
+        render={() => (
+          <Suspense fallback={<Spinner />}>
+            <TabletSalt />
+          </Suspense>
+        )}
+      />
+      <Route
+        path='/Products/Solar-salt'
+        render={() => (
+          <Suspense fallback={<Spinner />}>
+            <SolarSalt />
+          </Suspense>
+        )}
+      />
+      <Route
+        path='/Siwa-Rocks'
+        render={() => (
+          <Suspense fallback={<Spinner />}>
+            <RockSalt />
+          </Suspense>
+        )}
+      />
+      <Route
+        path='/SGS-Analysis'
+        render={() => (
+          <Suspense fallback={<Spinner />}>
+            <SGSAnalysis />
+          </Suspense>
+        )}
+      />
+      <Route
+        path='/Rock-Salt-Mined'
+        render={() => (
+          <Suspense fallback={<Spinner />}>
+            <RockSaltMined />
+          </Suspense>
+        )}
+      />
+      <Route
+        path='/Rock-Salt-Halite'
+        render={() => (
+          <Suspense fallback={<Spinner />}>
+            <RockSaltHalite />
+          </Suspense>
+        )}
+      />
     </Fragment>
   );
-}
+};
 
 export default Products;

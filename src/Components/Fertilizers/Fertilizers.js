@@ -1,23 +1,60 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, Suspense } from 'react';
 import { Route } from 'react-router-dom';
 import './Fertilizers.css';
 
-import DAP from './DAP/DAP';
-import MAP from './MAP/MAP';
-import SSP from './SSP/SSP';
-import TSP from './TSP/TSP';
-import UERA from './UERA/UERA';
+import Spinner from '../UI/Spinner/Spinner';
+
+const DAP = React.lazy(() => import('./DAP/DAP'));
+const MAP = React.lazy(() => import('./MAP/MAP'));
+const SSP = React.lazy(() => import('./SSP/SSP'));
+const TSP = React.lazy(() => import('./TSP/TSP'));
+const UERA = React.lazy(() => import('./UERA/UERA'));
 
 const Products = () => {
   return (
     <Fragment>
-      <Route path="/Fertilizers/DAP" component={DAP} />
-      <Route path="/Fertilizers/MAP" component={MAP} />
-      <Route path="/Fertilizers/SSP" component={SSP} />
-      <Route path="/Fertilizers/TSP" component={TSP} />
-      <Route path="/Fertilizers/UERA" component={UERA} />
+      <Route
+        path='/Fertilizers/DAP'
+        render={() => (
+          <Suspense fallback={<Spinner />}>
+            <DAP />
+          </Suspense>
+        )}
+      />
+      <Route
+        path='/Fertilizers/MAP'
+        render={() => (
+          <Suspense fallback={<Spinner />}>
+            <MAP />
+          </Suspense>
+        )}
+      />
+      <Route
+        path='/Fertilizers/SSP'
+        render={() => (
+          <Suspense fallback={<Spinner />}>
+            <SSP />
+          </Suspense>
+        )}
+      />
+      <Route
+        path='/Fertilizers/TSP'
+        render={() => (
+          <Suspense fallback={<Spinner />}>
+            <TSP />
+          </Suspense>
+        )}
+      />
+      <Route
+        path='/Fertilizers/UERA'
+        render={() => (
+          <Suspense fallback={<Spinner />}>
+            <UERA />
+          </Suspense>
+        )}
+      />
     </Fragment>
   );
-}
+};
 
 export default Products;
