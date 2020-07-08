@@ -1,0 +1,117 @@
+.contact-us {
+  padding: 80px 0;
+  background-color: #fff;
+}
+
+.contact-us h2 {
+  text-align: center;
+}
+
+.contact-us form {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+.contact-us form input {
+  width: 100%;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px auto;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+.contact-us form .name {
+  display: flex;
+}
+
+.contact-us form .name input:last-child {
+  margin-left: 25px;
+}
+
+.contact-us form textarea {
+  width: 100%;
+  height: 120px;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px auto;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  resize: none;
+}
+
+
+.my-title .title {
+  position: relative;
+}
+
+.my-title .title h2 {
+  color: #333;
+  font-size: 38px;
+  font-weight: bolder;
+  position: relative;
+  text-transform: capitalize;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.my-title .title .line {
+  display: block;
+  width: 110px;
+  height: 1px;
+  background-color: #ce8d16;
+  position: absolute;
+  top: 65px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.my-title .title h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 1px;
+  background-color: #ce8d16;
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.my-title .title h2::before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 1px;
+  background-color: #ce8d16;
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .contact-us form {
+    width: 100%;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .contact-us form {
+    width: 100%;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .contact-us form {
+    width: 100%;
+  }
+}
+
